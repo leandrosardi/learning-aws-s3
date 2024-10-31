@@ -20,7 +20,7 @@ end
 
 # Usage example
 bucket_name = AWS_S3_BUCKET_NAME
-file_path = './assets/massprospecting-logo.png' # Path to the local file
+file_path = '../assets/massprospecting-logo.png' # Path to the local file
 s3_key = 'my-first-folder/logo.png'     # Key (including "folders") for the file in S3
 #s3_key = 'Gemfile'     # Key (including "folders") for the file in S3
 
